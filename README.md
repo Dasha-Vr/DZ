@@ -7,15 +7,15 @@
 Первым элементом, в который нужно внести правки, будет шапка сайта.
 Сейчас, если открыть сайт в браузере с шириной окна `1024px`, появится горизонтальная полоса прокрутки:
 
-![Scroll on header](../../sources/fluid-header-scroll.jpg)
+![Scroll on header](sources/fluid-header-scroll.jpg)
 
 Избавьтесь от нее, чтобы шапка сайта выглядела так:
 
-![Scroll on header](../../sources/fluid-header-noscroll.jpg)
+![Scroll on header](sources/fluid-header-noscroll.jpg)
 
 При этом, если ширина окна браузера больше `1280px` контент сайта должен располагаться по центру:
 
-![Header on a widescreen](../../sources/fluid-header-widescreen.jpg)
+![Header on a widescreen](sources/fluid-header-widescreen.jpg)
 
 При ширине окна браузера меньше `1024px` должна появляться горизонтальная полоса прокрутки.
 
@@ -29,7 +29,7 @@
 
 Правильность своего решения можно проверить, меняя ширину окна браузера и следя за изменениями размеров блоков. Когда вы, сужая экран, пройдете значение `1024px`, то фон примера изменится следующим образом:
 
-![Header on a small screen](../../sources/fluid-header-smallscreen.jpg)
+![Header on a small screen](sources/fluid-header-smallscreen.jpg)
 
 Не требуется вносить какие-либо другие правки в CSS или писать дополнительные правила. Также не изменяйте HTML-разметку.
 
